@@ -2,7 +2,7 @@
 
 - 🌱 I’m currently learning Machine Learning
 - 🎓 I'm currently studying at Sri Shakthi Institute
-- 😁 Looking foeward for collabrative works
+- 😁 Looking forward for collabrative works
 
 
 ## 🌐 Socials:
