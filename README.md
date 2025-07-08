@@ -1,6 +1,6 @@
 ### Hi I'm Vicky
 
-- 🌱 I’m currently working on Full Stack Projects
+- 🌱 I’m currently working on Machine Learning porjects
 - 🚀 Passionate about building intelligent systems and innovative projects
 - 😁 Looking forward for collabrative works
 
