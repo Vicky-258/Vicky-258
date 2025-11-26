@@ -47,6 +47,6 @@
 ---
 
 ### ⚡ Quote
-> _“Clean architecture beats clever hacks. Always.”_
+> _“Clean architecture beats clever hacks. Always."_
 
 ---
