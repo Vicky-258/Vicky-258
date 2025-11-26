@@ -15,7 +15,7 @@ jobs:
       - uses: Platane/snk@v3
         id: snake
         with:
-          github_user_name: YOUR_GITHUB_USERNAME
+          github_user_name: Vicky-258
           outputs: dist/github-contribution-grid-snake-dark.svg
 
       - uses: crazy-max/ghaction-github-pages@v3
