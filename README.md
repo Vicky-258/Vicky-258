@@ -13,7 +13,7 @@
 
 ---
 
-### 🚀 What I Do
+### What I Do
 - Backend Engineering with performance in mind  
 - Machine Learning models that serve real-world use cases  
 - Full-stack applications with production-grade architecture  
@@ -46,7 +46,6 @@
 
 ---
 
-### ⚡ Quote
 > _“Clean architecture beats clever hacks. Always."_
 
 ---
