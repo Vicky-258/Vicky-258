@@ -1,47 +1,26 @@
-<h1 align="center">Hey, I'm Vicky</h1>
+$ whoami
 
-<p align="center">
-  <em>AI & Full-Stack Developer — building scalable systems with clean code and real engineering.</em>
-</p>
+Vicky
 
----
+$ focus
 
-### 🧠 Tech Toolbox
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,react,postgres,docker,cpp,pytorch&perline=7" />
-</p>
+Building infrastructure that predicts, adapts and recovers.
 
----
+$ current_projects
 
-### What I Do
-- Backend Engineering with performance in mind  
-- Machine Learning models that serve real-world use cases  
-- Full-stack applications with production-grade architecture  
+AutoScale
+Wiki-ML-Autoscale
+TrueTrack
 
----
+$ interests
 
-### 📊 GitHub Analytics
-<p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Vicky-258&theme=tokyonight&hide_border=true" />
-</p>
+MLOps
+Kubernetes
+Distributed Systems
+Backend Engineering
 
+$ motto
 
----
-
-### 🎯 Activity Heatmap
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vicky-258&theme=tokyo-night&hide_border=true" />
-</p>
-
----
-
-### 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
-
----
-
-> _“Clean architecture beats clever hacks. Always."_
-
----
+Automate the boring.
+Measure the important.
+Keep the system running.
