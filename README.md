@@ -1,26 +1,110 @@
-$ whoami
+<div align="center">
 
-Vicky
+# Vicky
 
-$ focus
+### Building systems that make decisions before humans have to.
 
-Building infrastructure that predicts, adapts and recovers.
+Infrastructure • MLOps • Distributed Systems
 
-$ current_projects
+</div>
 
-AutoScale
-Wiki-ML-Autoscale
-TrueTrack
+<br>
 
-$ interests
+<table>
+<tr>
+<td width="50%">
 
-MLOps
-Kubernetes
-Distributed Systems
-Backend Engineering
+### 🚀 Current Build
 
-$ motto
+**AutoScale**
 
-Automate the boring.
-Measure the important.
-Keep the system running.
+A simulation-based intelligent autoscaler that forecasts future workload and scales Kubernetes proactively.
+
+</td>
+
+<td width="50%">
+
+### 🧠 Current Focus
+
+* Distributed Systems
+* MLOps
+* Reliability Engineering
+* Infrastructure Automation
+
+</td>
+</tr>
+</table>
+
+---
+
+## Selected Work
+
+<table>
+<tr>
+<td width="50%">
+
+### 🚀 AutoScale
+
+Predictive Kubernetes autoscaling powered by machine learning.
+
+Forecasts future demand, detects bursts, and scales before bottlenecks occur.
+
+</td>
+
+<td width="50%">
+
+### 📚 Wiki-ML-Autoscale
+
+Self-improving MLOps platform.
+
+Automated retraining, model evaluation, promotion, and deployment inside Kubernetes.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🎵 TrueTrack
+
+Local-first music ingestion infrastructure.
+
+Resilient pipelines designed to survive crashes, restarts, and partial failures.
+
+</td>
+
+<td width="50%">
+
+### 🔬 Next Experiment
+
+Exploring distributed coordination and large-scale system reliability.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Principles
+
+* Automate repetitive decisions
+* Design for failure
+* Measure before optimizing
+* Keep systems observable
+
+---
+
+## Toolbox
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,kubernetes,pytorch,linux&perline=7" />
+</p>
+
+---
+
+## Activity
+
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vicky-258&hide_border=true&theme=transparent" />
+</p>
