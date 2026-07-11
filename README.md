@@ -53,11 +53,11 @@ Forecasts future demand, detects bursts, and scales before bottlenecks occur.
 
 <td width="50%">
 
-### 📚 Wiki-ML-Autoscale
+### Graphyra
 
-Self-improving MLOps platform.
+Entity aware Evidence Based retrieval Engine
 
-Automated retraining, model evaluation, promotion, and deployment inside Kubernetes.
+Traverse through a Graph of entities and evidences to retrieve info in a semantic and graph combined way
 
 </td>
 </tr>
