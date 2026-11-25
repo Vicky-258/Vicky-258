@@ -1,63 +1,43 @@
 <div align="center">
-  <img src="assets/hero-hud.svg" width="100%" alt="Vigneshkumar S — AI/ML & Systems Engineer" />
+  <img src="./assets/hero-hud.svg" width="100%" alt="Vigneshkumar S — AI/ML & Systems Engineer" />
 </div>
 
 <p align="center">
-  <a href="mailto:vickylm258@gmail.com"><code>email</code></a> ·
+  <a href="mailto:vickylm258@gmail.com"><code>vickylm258@gmail.com</code></a> ·
   <a href="https://github.com/Vicky-258"><code>github</code></a> ·
-  <a href="https://www.linkedin.com/in/vignesh258/"><code>linkedin</code></a> ·
-  <a href="https://leetcode.com/u/Vicky258/"><code>leetcode</code></a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE"><code>linkedin</code></a> ·
+  <a href="https://leetcode.com/u/YOUR_LEETCODE_HANDLE"><code>leetcode</code></a>
 </p>
 
 ---
 
-### 01. Engineering Focus
+### 01 // About Me
 
-I build **reliable AI/ML systems and backend infrastructure** — from multi-agent decision platforms and low-latency graph retrieval engines to predictive Kubernetes autoscalers and resumable state-machine pipelines.
+I'm **Vigneshkumar S**, an **AI/ML & Systems Engineer** pursuing a **B.Tech in Artificial Intelligence and Machine Learning** (2023–2027) at *Sri Shakthi Institute of Engineering and Technology*.
+
+I build **deterministic, observable, and fault-tolerant systems** — bridging applied AI with resilient backend engineering and cloud infrastructure.
 
 ---
 
-### 02. Systems I've Built
+### 02 // What I Work On
 
 <div align="center">
-  <img src="./assets/systems-showcase.svg" width="100%" alt="ORBIT, Graphyra, AutoScale, and TrueTrack Animated Showcase" />
+  <img src="./assets/engineering-flow.svg" width="100%" alt="End-to-End Engineering Pipeline" />
 </div>
 
-<details>
-<summary><b>Architectural Breakdown &amp; Benchmarks</b></summary>
+<br/>
 
-- **ORBIT** — Built a multi-agent decision platform (`LangGraph`, `LangChain`, `SimPy`, `FastAPI`, `React 18`) that generates Pareto-optimal cloud topologies from natural-language specs using a 13-tool Simulation SDK, bounded clarification dialogue, provenance tags (`MEASURED`, `EMPIRICAL`, `SIMULATED`), and a **374-test verification suite**.
-- **Graphyra** — Engineered an entity-aware multi-hop retrieval engine (`Python`, `PostgreSQL`, `FastAPI`) combining semantic search with priority-driven graph traversal. Benchmarked **15–18 ms** search latency across **59+ test cases** and **7 candidate-fusion strategies** (Precision@K, Recall@K, MRR).
-- **AutoScale** — Built a simulation-based Kubernetes autoscaler (`PyTorch`, `GRU`, `Kubernetes`, `Docker`) forecasting RPS **6 minutes ahead** from 15 minutes of telemetry with 97.5th-percentile residual bounds and `+3/-2` replica limits, cutting SLA-violation ticks from **14 → 0** vs. reactive HPA.
-- **TrueTrack** — Designed a local-first music ingestion pipeline (`FastAPI`, `SQLite`, `Pydantic`, `Next.js`, `TypeScript`) with persisted state-machine workflows, idempotency keys, worker locks, and retry/backoff recovery.
-
-</details>
+- **`01 · Applied AI`** — Multi-agent workflows (`LangGraph`, `LangChain`), discrete-event simulation (`SimPy`), local LLMs (`Ollama`), bounded clarification loops, and automated evaluation guardrails.
+- **`02 · Retrieval & RAG`** — Entity-aware multi-hop graph traversal, dense semantic search (`FAISS`, `Sentence Transformers`), hybrid candidate-fusion strategies, and low-latency evidence ranking (`PostgreSQL`).
+- **`03 · Backends`** — Async job-control APIs (`FastAPI`, `Pydantic`), persistent state-machine workflows, idempotency keys, worker locks, retry/backoff recovery, and systems code in `Rust` & `C`.
+- **`04 · ML Infra`** — Time-series forecasting (`PyTorch` GRU) for proactive `Kubernetes` autoscaling, deterministic cooldown/burst safeguards, containerized workloads (`Docker`), and verification (`pytest`).
 
 ---
 
-### 03. Core Stack
-
-| Layer | Technologies |
-| :--- | :--- |
-| **Languages** | `Python` · `Rust` · `C` · `SQL` · `TypeScript` |
-| **AI / ML & Retrieval** | `PyTorch` · `scikit-learn` · `LangGraph` · `LangChain` · `FAISS` · `Sentence Transformers` · `Ollama` |
-| **Backend & UI** | `FastAPI` · `Pydantic` · `Async Workers` · `Next.js` · `React` · `Tailwind CSS` |
-| **Data & Infra** | `PostgreSQL` · `SQLite` · `SimPy` · `Docker` · `Kubernetes` · `Linux` · `pytest` |
-
----
-
-### 04. Milestones & Activity
-
-- **Smart India Hackathon (SIH) 2025** — Advanced from institute-level selection to the **national-level evaluation stage**.
-- **CodeX Trade 2024** — **Finalist** at PSG Institute of Technology and Applied Research (PSG iTech).
-- **LeetCode** — **250+** algorithmic problems solved.
+### 03 // Tech Matrix
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
+  <img src="./assets/tech-matrix.svg" width="100%" alt="Core Tech Stack Matrix" />
 </div>
 
 <br/>
