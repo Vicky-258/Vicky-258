@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="880" height="280" role="img" aria-label="Vigneshkumar S - AI/ML and Systems Engineer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="55%" stop-color="#0b1220" />
+      <stop offset="100%" stop-color="#091526" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e293b" />
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="878" height="278" rx="16" />
+    </clipPath>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      @keyframes pulseRing {
+        0% { r: 6; opacity: 0.85; }
+        100% { r: 18; opacity: 0; }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-280px); }
+        100% { transform: translateY(280px); }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0.15; }
+      }
+      .ring-anim { animation: pulseRing 2.6s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      .ring-anim-2 { animation: pulseRing 2.6s cubic-bezier(0.2, 0.8, 0.2, 1) 1.3s infinite; }
+      .float-g { animation: floatSlow 5s ease-in-out infinite; }
+      .status-dot { animation: blink 1.6s infinite; }
+      .scan { animation: scanline 7s linear infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Background -->
+    <rect width="880" height="280" rx="16" fill="url(#bgGrad)" />
+    <rect width="880" height="280" fill="url(#dotGrid)" opacity="0.7" />
+
+    <!-- Ambient Glows -->
+    <circle cx="700" cy="140" r="170" fill="url(#glowCyan)" />
+    <circle cx="560" cy="70" r="140" fill="url(#glowViolet)" />
+
+    <!-- Subtle Scanline -->
+    <rect class="scan" x="0" y="0" width="880" height="2" fill="url(#accentGrad)" opacity="0.12" />
+
+    <!-- Left HUD Content -->
+    <g transform="translate(42, 42)">
+      <!-- Status Pill -->
+      <rect x="0" y="0" width="236" height="26" rx="13" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <circle class="status-dot" cx="15" cy="13" r="4" fill="#2dd4bf" />
+      <text x="27" y="17" class="mono" font-size="11" fill="#94a3b8" letter-spacing="0.8">SYSTEM ONLINE // VICKY-258</text>
+
+      <!-- Name -->
+      <text x="0" y="76" class="sans" font-size="38" font-weight="800" fill="#f8fafc" letter-spacing="-0.8">Vigneshkumar S</text>
+
+      <!-- Accent Rule -->
+      <rect x="0" y="92" width="110" height="3" rx="1.5" fill="url(#accentGrad)" />
+
+      <!-- Role -->
+      <text x="0" y="122" class="sans" font-size="16" font-weight="500" fill="#cbd5e1">
+        AI/ML Engineer · Applied AI, Retrieval Systems &amp; ML Infra
+      </text>
+
+      <!-- Key Metrics / Telemetry Strip -->
+      <g transform="translate(0, 148)">
+        <rect x="0" y="0" width="132" height="44" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="17" class="mono" font-size="10" fill="#64748b">RETRIEVAL</text>
+        <text x="12" y="34" class="mono" font-size="13" font-weight="700" fill="#38bdf8">15–18 ms</text>
+
+        <rect x="144" y="0" width="132" height="44" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+        <text x="156" y="17" class="mono" font-size="10" fill="#64748b">AUTOSCALE SLA</text>
+        <text x="156" y="34" class="mono" font-size="13" font-weight="700" fill="#2dd4bf">14 → 0 ticks</text>
+
+        <rect x="288" y="0" width="132" height="44" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+        <text x="300" y="17" class="mono" font-size="10" fill="#64748b">LEETCODE</text>
+        <text x="300" y="34" class="mono" font-size="13" font-weight="700" fill="#818cf8">250+ solved</text>
+      </g>
+    </g>
+
+    <!-- Right: Animated Multi-Hop Graph & Orbital Topology -->
+    <g transform="translate(565, 20)">
+      <g class="float-g">
+        <!-- Outer Orbital Ring -->
+        <circle cx="155" cy="120" r="94" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6">
+          <animateTransform attributeName="transform" type="rotate" from="0 155 120" to="360 155 120" dur="36s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="155" cy="120" r="64" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 4">
+          <animateTransform attributeName="transform" type="rotate" from="360 155 120" to="0 155 120" dur="24s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Graph Edges -->
+        <path id="e1" d="M 65 75 Q 110 65 155 120" fill="none" stroke="#334155" stroke-width="1.5" />
+        <path id="e2" d="M 155 120 Q 205 90 245 68" fill="none" stroke="#334155" stroke-width="1.5" />
+        <path id="e3" d="M 155 120 Q 200 160 240 185" fill="none" stroke="#334155" stroke-width="1.5" />
+        <path id="e4" d="M 65 175 Q 110 155 155 120" fill="none" stroke="#334155" stroke-width="1.5" />
+        <path id="e5" d="M 65 75 L 65 175" fill="none" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="3 3" />
+        <path id="e6" d="M 245 68 L 240 185" fill="none" stroke
