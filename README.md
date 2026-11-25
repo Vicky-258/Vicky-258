@@ -1,110 +1,67 @@
 <div align="center">
-
-# Vicky
-
-### Building systems that make decisions before humans have to.
-
-Infrastructure • MLOps • Distributed Systems
-
+  <img src="./assets/hero-hud.svg" width="100%" alt="Vigneshkumar S — AI/ML & Systems Engineer" />
 </div>
 
-<br>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🚀 Current Build
-
-**AutoScale**
-
-A simulation-based intelligent autoscaler that forecasts future workload and scales Kubernetes proactively.
-
-</td>
-
-<td width="50%">
-
-### 🧠 Current Focus
-
-* Distributed Systems
-* MLOps
-* Reliability Engineering
-* Infrastructure Automation
-
-</td>
-</tr>
-</table>
-
----
-
-## Selected Work
-
-<table>
-<tr>
-<td width="50%">
-
-### 🚀 AutoScale
-
-Predictive Kubernetes autoscaling powered by machine learning.
-
-Forecasts future demand, detects bursts, and scales before bottlenecks occur.
-
-</td>
-
-<td width="50%">
-
-### Graphyra
-
-Entity aware Evidence Based retrieval Engine
-
-Traverse through a Graph of entities and evidences to retrieve info in a semantic and graph combined way
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🎵 TrueTrack
-
-Local-first music ingestion infrastructure.
-
-Resilient pipelines designed to survive crashes, restarts, and partial failures.
-
-</td>
-
-<td width="50%">
-
-### 🔬 Next Experiment
-
-Exploring distributed coordination and large-scale system reliability.
-
-</td>
-</tr>
-</table>
-
----
-
-## Principles
-
-* Automate repetitive decisions
-* Design for failure
-* Measure before optimizing
-* Keep systems observable
-
----
-
-## Toolbox
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,kubernetes,pytorch,linux&perline=7" />
-</p>
-
----
-
-## Activity
-
-
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vicky-258&hide_border=true&theme=transparent" />
+  <a href="mailto:vickylm258@gmail.com"><code>email</code></a> ·
+  <a href="https://github.com/Vicky-258"><code>github</code></a> ·
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE"><code>linkedin</code></a> ·
+  <a href="https://leetcode.com/u/YOUR_LEETCODE_HANDLE"><code>leetcode (250+)</code></a>
 </p>
+
+---
+
+### 01. Engineering Focus
+
+I build **reliable AI/ML systems and backend infrastructure** — from multi-agent decision platforms and low-latency graph retrieval engines to predictive Kubernetes autoscalers and resumable state-machine pipelines. Currently pursuing a **B.Tech in AI & ML** (2023–2027) at *Sri Shakthi Institute of Engineering and Technology*.
+
+---
+
+### 02. Systems I've Built
+
+<div align="center">
+  <img src="./assets/systems-showcase.svg" width="100%" alt="ORBIT, Graphyra, AutoScale, and TrueTrack Animated Showcase" />
+</div>
+
+<details>
+<summary><b>Architectural Breakdown &amp; Benchmarks</b></summary>
+
+- **ORBIT** — Built a multi-agent decision platform (`LangGraph`, `LangChain`, `SimPy`, `FastAPI`, `React 18`) that generates Pareto-optimal cloud topologies from natural-language specs using a 13-tool Simulation SDK, bounded clarification dialogue, provenance tags (`MEASURED`, `EMPIRICAL`, `SIMULATED`), and a **374-test verification suite**.
+- **Graphyra** — Engineered an entity-aware multi-hop retrieval engine (`Python`, `PostgreSQL`, `FastAPI`) combining semantic search with priority-driven graph traversal. Benchmarked **15–18 ms** search latency across **59+ test cases** and **7 candidate-fusion strategies** (Precision@K, Recall@K, MRR).
+- **AutoScale** — Built a simulation-based Kubernetes autoscaler (`PyTorch`, `GRU`, `Kubernetes`, `Docker`) forecasting RPS **6 minutes ahead** from 15 minutes of telemetry with 97.5th-percentile residual bounds and `+3/-2` replica limits, cutting SLA-violation ticks from **14 → 0** vs. reactive HPA.
+- **TrueTrack** — Designed a local-first music ingestion pipeline (`FastAPI`, `SQLite`, `Pydantic`, `Next.js`, `TypeScript`) with persisted state-machine workflows, idempotency keys, worker locks, and retry/backoff recovery.
+
+</details>
+
+---
+
+### 03. Core Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Languages** | `Python` · `Rust` · `C` · `SQL` · `TypeScript` |
+| **AI / ML & Retrieval** | `PyTorch` · `scikit-learn` · `LangGraph` · `LangChain` · `FAISS` · `Sentence Transformers` · `Ollama` |
+| **Backend & UI** | `FastAPI` · `Pydantic` · `Async Workers` · `Next.js` · `React` · `Tailwind CSS` |
+| **Data & Infra** | `PostgreSQL` · `SQLite` · `SimPy` · `Docker` · `Kubernetes` · `Linux` · `pytest` |
+
+---
+
+### 04. Milestones & Activity
+
+- **Smart India Hackathon (SIH) 2025** — Advanced from institute-level selection to the **national-level evaluation stage**.
+- **CodeX Trade 2024** — **Finalist** at PSG Institute of Technology and Applied Research (PSG iTech).
+- **LeetCode** — **250+** algorithmic problems solved.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Vicky-258/Vicky-258/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/footer-terminal.svg" width="100%" alt="Terminal Footer" />
+</div>
