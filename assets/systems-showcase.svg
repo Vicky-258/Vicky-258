@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-label="Featured Systems Showcase">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -24; }
+      }
+      @keyframes hopPulse {
+        0%, 100% { opacity: 0.35; r: 4; }
+        50% { opacity: 1; r: 6; }
+      }
+      @keyframes waveShift {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-40px); }
+      }
+      @keyframes stateGlow1 { 0%, 24% { fill: #38bdf8; } 25%, 100% { fill: #1e293b; } }
+      @keyframes stateGlow2 { 0%, 24% { fill: #1e293b; } 25%, 49% { fill: #818cf8; } 50%, 100% { fill: #1e293b; } }
+      @keyframes stateGlow3 { 0%, 49% { fill: #1e293b; } 50%, 74% { fill: #f59e0b; } 75%, 100% { fill: #1e293b; } }
+      @keyframes stateGlow4 { 0%, 74% { fill: #1e293b; } 75%, 100% { fill: #2dd4bf; } }
+
+      .flow-line { stroke-dasharray: 4 4; animation: dashFlow 1.6s linear infinite; }
+      .hop1 { animation: hopPulse 2.4s ease-in-out 0s infinite; }
+      .hop2 { animation: hopPulse 2.4s ease-in-out 0.8s infinite; }
+      .hop3 { animation: hopPulse 2.4s ease-in-out 1.6s infinite; }
+      .s1 { animation: stateGlow1 3.2s infinite; }
+      .s2 { animation: stateGlow2 3.2s infinite; }
+      .s3 { animation: stateGlow3 3.2s infinite; }
+      .s4 { animation: stateGlow4 3.2s infinite; }
+    </style>
+  </defs>
+
+  <!-- Card 1: ORBIT (Top Left) -->
+  <g transform="translate(0, 0)">
+    <rect width="430" height="200" rx="14" fill="#0b1220" stroke="#1e293b" stroke-width="1.5" />
+    <text x="22" y="34" class="mono" font-size="11" fill="#38bdf8" letter-spacing="1">01 // AGENTIC ARCHITECTURE</text>
+    <text x="22" y="60" class="sans" font-size="20" font-weight="700" fill="#f8fafc">ORBIT</text>
+    <text x="22" y="82" class="sans" font-size="12.5" fill="#94a3b8">Multi-agent topology &amp; SimPy discrete-event eval</text>
+
+    <!-- Micro-animation: Pareto & Agent Topology -->
+    <g transform="translate(22, 98)">
+      <rect width="386" height="58" rx="8" fill="#070b14" stroke="#1e293b" stroke-width="1" />
+      <path d="M 24 38 L 94 20 L 164 38 L 234 18" fill="none" stroke="#38bdf8" stroke-width="1.5" class="flow-line" />
+      <circle cx="24" cy="38" r="5" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      <circle cx="94" cy="20" r="5" fill="#0f172a" stroke="#818cf8" stroke-width="2" />
+      <circle cx="164" cy="38" r="5" fill="#0f172a" stroke="#2dd4bf" stroke-width="2" />
+      <circle cx="234" cy="18" r="5" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+      <circle r="3" fill="#2dd4bf">
+        <animateMotion dur="2.6s" repeatCount="indefinite" path="M 24 38 L 94 20 L 164 38 L 234 18" />
+      </circle>
+      <text x="262" y="26" class="mono" font-size="10" fill="#64748b">13-TOOL SDK</text>
+      <text x="262" y="42" class="mono" font-size="11" font-weight="700" fill="#2dd4bf">374 tests ✓</text>
+    </g>
+
+    <text x="22" y="180" class="mono" font-size="11" fill="#64748b">LangGraph · SimPy · FastAPI · React 18</text>
+  </g>
+
+  <!-- Card 2: Graphyra (Top Right) -->
+  <g transform="translate(450, 0)">
+    <rect width="430" height="200" rx="14" fill="#0b1220" stroke="#1e293b" stroke-width="1.5" />
+    <text x="22" y="34" class="mono" font-size="11" fill="#2dd4bf" letter-spacing="1">02 // MULTI-HOP RETRIEVAL</text>
+    <text x="22" y="60" class="sans" font-size="20" font-weight="700" fill="#f8fafc">Graphyra</text>
+    <text x="22" y="82" class="sans" font-size="12.5" fill="#94a3b8">Entity-aware semantic search + graph traversal</text>
+
+    <!-- Micro-animation: Sequential Multi-Hop Traversal -->
+    <g transform="translate(22, 98)">
+      <rect width="386" height="58" rx="8" fill="#070b14" stroke="#1e293b" stroke-width="1" />
+      <line x1="30" y1="29" x2="105" y2="18" stroke="#334155" stroke-width="1.5" />
+      <line x1="105" y1="18" x2="180" y2="40" stroke="#334155" stroke-width="1.5" />
+      <line x1="180" y1="40" x2="245" y2="22" stroke="#334155" stroke-width="1.5" />
+      <circle cx="30" cy="29" r="5" fill="#2dd4bf" class="hop1" />
+      <circle cx="105" cy="18" r="5" fill="#38bdf8" class="hop2" />
+      <circle cx="180" cy="40" r="5" fill="#818cf8" class="hop3" />
+      <circle cx="245" cy="22" r="5" fill="#2dd4bf" />
+      <text x="270" y="26" class="mono" font-size="10" fill="#64748b">7 FUSION MODES</text>
+      <text x="270" y="42" class="mono" font-size="11" font-weight="700" fill="#38bdf8">15–18 ms</text>
+    </g>
+
+    <text x="22" y="180" class="mono" font-size="11" fill="#64748b">Python · Graph Retrieval · PostgreSQL · FastAPI</text>
+  </g>
+
+  <!-- Card 3: AutoScale (Bottom Left) -->
+  <g transform="translate(0, 220)">
+    <rect width="430" height="200" rx="14" fill="#0b1220" stroke="#1e293b" stroke-width="1.5" />
+    <text x="22" y="34" class="mono" font-size="11" fill="#818cf8" letter-spacing="1">03 // PREDICTIVE ML INFRA</text>
+    <text x="22" y="60" class="sans" font-size="20" font-weight="700" fill="#f8fafc">AutoScale</text>
+    <text x="22" y="82" class="sans" font-size="12.5" fill="#94a3b8">GRU RPS forecasting (+6m) with K8s guardrails</text>
+
+    <!-- Micro-animation: Telemetry + Forecast Horizon -->
+    <g transform="translate(22, 98)">
+      <rect width="386" height="58" rx="8" fill="#070b14" stroke="#1e293b" stroke-width="1" />
+      <path d="M 16 42 Q 45 14 75 34 T 135 28 T 185 18" fill="none" stroke="#818cf8" stroke-width="2" />
+      <path d="M 185 18 Q 210 12 238 24" fill="none" stroke="#2dd4bf" stroke-width="2" class="flow-line" />
+      <line x1="185" y1="8" x2="185" y2="50" stroke="#334155" stroke-width="1" stroke-dasharray="2 2" />
+      <circle cx="185" cy="18" r="3.5" fill="#f8fafc" />
+      <text x="262" y="26" class="mono" font-size="10" fill="#64748b">SLA VIOLATIONS</text>
+      <text x="262" y="42" class="mono" font-size="11" font-weight="700" fill="#2dd4bf">14 → 0 ticks</text>
+    </g>
+
+    <text x="22" y="180" class="mono" font-size="11" fill="#64748b">PyTorch · GRU · Kubernetes · Docker · FastAPI</text>
+  </g>
+
+  <!-- Card 4: TrueTrack (Bottom Right) -->
+  <g transform="translate(450, 220)">
+    <rect width="430" height="200" rx="14" fill="#0b1220" stroke="#1e293b" stroke-width="1.5" />
+    <text x="22" y="34" class="mono" font-size="11" fill="#f59e0b" letter-spacing="1">04 // STATE-MACHINE PIPELINE</text>
+    <text x="22" y="60" class="sans" font-size="20" font-weight="700" fill="#f8fafc">TrueTrack</text>
+    <text x="22" y="82" class="sans" font-size="12.5" fill="#94a3b8">Resumable ingestion with locks &amp; idempotency</text>
+
+    <!-- Micro-animation: State Machine Transitions -->
+    <g transform="translate(22, 98)">
+      <rect width="386" height="58" rx="8" fill="#070b14" stroke="#1e293b" stroke-width="1" />
+      <rect x="16" y="18" width="52" height="22" rx="4" class="s1" />
+      <text x="24" y="33" class="mono" font-size="9" font-weight="700" fill="#f8fafc">QUEUE</text>
+
+      <rect x="78" y="18" width="52" height="22" rx="4" class="s2" />
+      <text x="89" y="33" class="mono" font-size="9" font-weight="700" fill="#f8fafc">LOCK</text>
+
+      <rect x="140" y="18" width="52" height="22" rx="4" class="s3" />
+      <text x="148" y="33" class="mono" font-size="9" font-weight="700" fill="#f8fafc">RETRY</text>
+
+      <rect x="202" y="18" width="52" height="22" rx="4" class="s4" />
+      <text x="213" y="33" class="mono" font-size="9" font-weight="700" fill="#f8fafc">DONE</text>
+
+      <text x="272" y="26" class="mono" font-size="10" fill="#64748b">WORKFLOWS</text>
+      <text x="272" y="42" class="mono" font-size="11" font-weight="700" fill="#f59e0b">Resumable ✓</text>
+    </g>
+
+    <text x="22" y="180" class="mono" font-size="11" fill="#64748b">FastAPI · SQLite · Pydantic · Next.js · TS</text>
+  </g>
+</svg>
