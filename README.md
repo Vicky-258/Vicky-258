@@ -5,15 +5,15 @@
 <p align="center">
   <a href="mailto:vickylm258@gmail.com"><code>email</code></a> ·
   <a href="https://github.com/Vicky-258"><code>github</code></a> ·
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE"><code>linkedin</code></a> ·
-  <a href="https://leetcode.com/u/YOUR_LEETCODE_HANDLE"><code>leetcode (250+)</code></a>
+  <a href="https://www.linkedin.com/in/vignesh258/"><code>linkedin</code></a> ·
+  <a href="https://leetcode.com/u/Vicky258/"><code>leetcode</code></a>
 </p>
 
 ---
 
 ### 01. Engineering Focus
 
-I build **reliable AI/ML systems and backend infrastructure** — from multi-agent decision platforms and low-latency graph retrieval engines to predictive Kubernetes autoscalers and resumable state-machine pipelines. Currently pursuing a **B.Tech in AI & ML** (2023–2027) at *Sri Shakthi Institute of Engineering and Technology*.
+I build **reliable AI/ML systems and backend infrastructure** — from multi-agent decision platforms and low-latency graph retrieval engines to predictive Kubernetes autoscalers and resumable state-machine pipelines.
 
 ---
 
