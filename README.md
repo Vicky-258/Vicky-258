@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero-hud.svg" width="100%" alt="Vigneshkumar S — AI/ML & Systems Engineer" />
+  <img src="assets/hero-hud.svg" width="100%" alt="Vigneshkumar S — AI/ML & Systems Engineer" />
 </div>
 
 <p align="center">
